@@ -1,0 +1,47 @@
+##################################
+# Maven / Gradle
+##################################
+target/
+build/
+!**/src/main/**/target/
+!**/src/test/**/target/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+##################################
+# IntelliJ IDEA
+##################################
+.idea/
+*.iml
+*.iws
+*.ipr
+
+##################################
+# Logs
+##################################
+*.log
+
+##################################
+# OS files
+##################################
+.DS_Store
+Thumbs.db
+
+##################################
+# Spring Boot / JWT Secrets
+##################################
+# NEVER commit secrets
+src/main/resources/application.properties
+src/main/resources/application.yml
+.env
+
+##################################
+# Maven Wrapper (optional)
+##################################
+.mvn/wrapper/maven-wrapper.jar
+
+##################################
+# Node (agar frontend bhi ho)
+##################################
+node_modules/
+dist/
